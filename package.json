@@ -1,4 +1,5 @@
 {
+  "name": "vitesse-antd",
   "private": true,
   "packageManager": "pnpm@6.32.3",
   "scripts": {
