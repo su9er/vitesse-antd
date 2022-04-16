@@ -13,7 +13,7 @@ const toggleLocales = () => {
 <template>
   <nav text-xl mt-6>
     <RouterLink class="icon-btn mx-2" to="/" :title="t('button.home')">
-      <div i-carbon-campsite />
+      <div i-mdi-home-search-outline />
     </RouterLink>
 
     <button class="icon-btn mx-2 !outline-none" :title="t('button.toggle_dark')" @click="toggleDark()">
@@ -23,6 +23,10 @@ const toggleLocales = () => {
     <a class="icon-btn mx-2" :title="t('button.toggle_langs')" @click="toggleLocales">
       <div i-carbon-language />
     </a>
+
+    <RouterLink class="icon-btn mx-2" to="/use" :title="t('button.use')">
+      <div i-carbon-request-quote />
+    </RouterLink>
 
     <RouterLink class="icon-btn mx-2" to="/about" :title="t('button.about')">
       <div i-carbon-dicom-overlay />

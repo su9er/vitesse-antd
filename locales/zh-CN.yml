@@ -5,8 +5,9 @@ button:
   home: 首页
   toggle_dark: 切换深色模式
   toggle_langs: 切换语言
+  use: 使用模板
 intro:
-  desc: 固执己见的 Vite 项目模板
+  desc: 是一个开箱即用的 Vue3 模板，它拥有以下特性：
   dynamic-route: 动态路由演示
   hi: 你好，{name}
   aka: 也叫

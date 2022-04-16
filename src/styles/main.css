@@ -17,7 +17,7 @@ html.dark {
 }
 
 #nprogress .bar {
-  background: rgb(13,148,136);
+  background: #0d9488;
   opacity: 0.75;
   position: fixed;
   z-index: 1031;

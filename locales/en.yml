@@ -5,8 +5,9 @@ button:
   home: Home
   toggle_dark: Toggle dark mode
   toggle_langs: Change languages
+  use: use template
 intro:
-  desc: Opinionated Vite Starter Template
+  desc: is an out of the box vue3 framework with the following features
   dynamic-route: Demo of dynamic route
   hi: Hi, {name}!
   aka: Also known as

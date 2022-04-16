@@ -38,12 +38,15 @@ watchEffect(() => {
     </template>
 
     <div>
-      <button
-        btn m="3 t6" text-sm
+      <a-button
+        :disabled="!name"
+        m="3 t6"
+        size="middle"
+        type="primary"
         @click="router.back()"
       >
         {{ t('button.back') }}
-      </button>
+      </a-button>
     </div>
   </div>
 </template>

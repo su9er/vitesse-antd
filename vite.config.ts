@@ -26,6 +26,18 @@ export default defineConfig({
     },
   },
 
+  // https://github.com/vueComponent/ant-design-vue/issues/4220
+  css: {
+    preprocessorOptions: {
+      less: {
+        javascriptEnabled: true,
+        modifyVars: {
+          'primary-color': '#0284c7',
+        },
+      },
+    },
+  },
+
   plugins: [
     Vue({
       include: [/\.vue$/, /\.md$/],
@@ -97,12 +109,12 @@ export default defineConfig({
     Inspect(),
 
     viteThemePlugin({
-      colorVariables: ['#0d9488'],
+      colorVariables: ['#0284c7'],
     }),
 
     antdDarkThemePlugin({
       darkModifyVars: {
-        'primary-color': '#0d9488',
+        'primary-color': '#0284c7',
         ...antdDarkVars,
       },
     }),

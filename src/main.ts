@@ -6,6 +6,7 @@ import App from './App.vue'
 import bootstrap from './bootstrap'
 
 import '@unocss/reset/tailwind.css'
+import 'ant-design-vue/dist/antd.less'
 import './styles/main.css'
 import 'uno.css'
 

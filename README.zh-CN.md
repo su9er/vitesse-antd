@@ -120,7 +120,7 @@
 
 ### GitHub 模板
 
-[使用这个模板创建仓库](https://github.com/antfu/vitesse/generate).
+[使用这个模板创建仓库](https://github.com/su9er/vitesse-antd/generate).
 
 ### 克隆到本地
 
